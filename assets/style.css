@@ -1,0 +1,108 @@
+
+body {
+
+	max-width: 960px;
+	margin-top: 0px;
+	margin: auto;
+
+	background-image: url("img/background.jpeg");
+	background-repeat: no-repeat;
+}
+
+/* Company name */
+/* ------------------------------------------------------------------------------------------------- */
+header {
+
+padding-top: 50px;
+padding-bottom: 50px;
+
+text-align: center;
+color: white;
+text-shadow: -0.03125em 0 #000000, 0 0.03125em #000000, 0.03125em 0 #000000, 0 -0.03125em #000000, -0.03125em -0.03125em #000000, -0.03125em 0.03125em #000000, 0.03125em -0.03125em #000000, 0.03125em 0.03125em #000000;
+
+background-image: url("img/companylogoBG.jpg");
+background-position: center;
+background-size: 960px, auto,  cover;
+
+
+font-family: "Berlin Sans Fb";
+font-weight: 450;
+font-size: 5em;
+}
+
+
+/* Grey nav bar */
+/* ------------------------------------------------------------------------------------------------- */
+ul{
+	border:0.03125em solid #FFFFFF;
+	background-color: #707070;
+
+    text-align: center;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+li a {
+    display:inline-block;
+    padding: 0.3125em;
+
+    text-decoration: none;
+	color: white;
+    font-family: "Arial";
+    font-size: 2em;
+}
+/* ------------------------------------------------------------------------------------------------- */
+/*images & text*/
+break{
+	display: block;	
+}
+
+
+
+p{
+	background-color: #2699FB;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	text-align: center;
+	color: white;
+    font-family: "Arial";
+    font-size: 5em;
+}
+img{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+/*footer*/
+
+footer{
+	border:0.03125em solid #FFFFFF;
+	background-color: #000000;
+
+	padding: 0.03125em;
+	text-align: center;
+	color: white;
+    font-family: "Arial";
+    font-size: 2em;
+}
+
+
+/* ------------------------------------------------------------------------------------------------- */
+/*mobile*/
+@media only screen and (max-width: 360px){
+	.delete{
+		display: none;
+	}
+}
+
+/*tablet*/
+@media only screen and (max-width: 360px) and (min-width: 960px){
+
+}
