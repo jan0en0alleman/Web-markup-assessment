@@ -30,6 +30,7 @@ font-weight: 450;
 font-size: 5em;
 }
 
+
 .menu{
 	height: 30px;
 	width: auto;
@@ -82,13 +83,9 @@ li a {
 
 /* ------------------------------------------------------------------------------------------------- */
 /*images & text*/
-break{
-	display: block;	
-}
-
-
 
 p{
+	border:0.0125em solid #FFFFFF;
 	background-color: #2699FB;
 	margin: 0;
 	padding-top: 20px;
@@ -99,15 +96,43 @@ p{
     font-family: "Arial";
     font-size: 5em;
 }
+.three{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.six{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.nine{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.ten{
+	border:1em solid #FFFFFF;
+	border-right: 0;
+}
+.eleven{
+	border:1em solid #FFFFFF;
+	border-right: 0;
+}
+.twelve{
+	border:1em solid #FFFFFF;
+}
 img{
+	float:left;
 	display: block;
 	object-fit: cover;
+	background-color: #AAAAAA;
 
-    max-width: 100%;
+	padding:0.0625em;
+	border:1em solid #FFFFFF;
+	border-right: 0;
+	border-bottom: 0;
+
+    max-width:calc(33% - 20.3333333px);
     width: 100%;
-
-    height: auto;
-    max-height: 400px;
+    height: 200px;
 }
 
 /* ------------------------------------------------------------------------------------------------- */
@@ -128,14 +153,24 @@ footer{
 /* ------------------------------------------------------------------------------------------------- */
 /*mobile*/
 @media only screen and (max-width: 360px){
-	.delete{
-		display: none;
-	}
-
 	.appear{
 		display: block;
 	}
-
+	.delete{
+		display: none;
+	}
+	
+	.ten{
+		border:1em solid #FFFFFF;
+		border-bottom: 0;
+	}
+	.eleven{
+		border:1em solid #FFFFFF;
+		border-bottom: 0;
+	}
+	.twelve{
+		border:1em solid #FFFFFF;
+	}
 	body{
 		background: #707070;
 	}
@@ -163,8 +198,13 @@ footer{
 	}
 
 	img{
-	border:0.25em solid #FFFFFF;
-    max-height: 140px
+	float: none;
+	border:1em solid #FFFFFF;
+    border-bottom: 0;
+
+    max-height: 170px;
+    max-width:calc(100% - 36px);
+    width: 100%;
 	}
 
 	footer{
@@ -178,17 +218,49 @@ footer{
 
 /*tablet*/
 @media only screen and (max-width: 960px) and (min-width: 361px){
-.deleteTab{
+.delete{
 		display: none;
 	}
 .double{
-	float: left;
-	border:0.25em solid #FFFFFF;
-	height: 320px;
-	max-width:calc(50% - 8px);
+	max-width:calc(50% - 26px);
 }
-
-
+.two{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.four{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.six{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.eight{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.ten{
+	border:1em solid #FFFFFF;
+	border-bottom: 0;
+}
+.eleven{
+	border:1em solid #FFFFFF;
+	border-right: 0;
+}
+.twelve{
+	border:1em solid #FFFFFF;
+}
+.three{
+	border:1em solid #FFFFFF;
+	border-right: 0;
+	border-bottom: 0;
+}
+.nine{
+	border:1em solid #FFFFFF;
+	border-right: 0;
+	border-bottom: 0;
+}
 
 header{
 	padding-top: 0.4em;

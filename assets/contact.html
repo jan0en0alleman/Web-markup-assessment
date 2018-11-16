@@ -1,10 +1,41 @@
-COMPANY NAME
-Home
-Product
-Contact
-More information
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styleContact.css">
+	<title>Contact</title>
+</head>
+
+<body>
+<!-- header -->
+<header title = "COMPANY NAME">COMPANY NAME</header>
+
+<hover class="drop appear">
+  <img class="menu" src="img/drop.jpg" alt= "Missing picture">
+  <hover class="dropbar">
+    <a href="product.html">PRODUCT</a></li>
+  	<a href="index.html">BLOG</a></li>
+  	<a href="contact.html">CONTACT</a></li>
+  </hover>
+</hover>
+
+<!-- navbar -->
+<ul class="delete">
+  	<li><a href="index.html">HOME</a></li>
+  	<li><a href="product.html">PRODUCT</a></li>
+  	<li><a href="Blog">BLOG</a></li>
+</ul>
+
+<!-- Forum -->
+<p class="delete">CONTACT</p>
+
+<!-- Forum -->
 <form action="nowhere.php" method="post">
-	<fieldset>
+	<label class="delete">More information</label>
+	<fieldset class="dropdown">
 		<label >Select topic</label>
 		<select>
 			<option value="general">General inquiries</option>
@@ -34,9 +65,14 @@ More information
 				placeholder="Write something.."
 		></textarea>
 	</fieldset>
-	<input
+	<input class="button" 
 			type="submit"
 			value="Submit"
 	/>
 </form>
-2018 - Student name - Inholland 
+
+<!-- footer -->
+<footer>2018 - Rik Bekebrede - Inholland </footer>
+
+</body>
+</html>
